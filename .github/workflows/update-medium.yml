@@ -1,42 +1,55 @@
 name: Update Medium posts
 
-
 on:
   schedule:
-    - cron: '0 */12 * * *'  # every 12 hours
+    - cron: '0 */12 * * *'
   workflow_dispatch: {}
-
 
 permissions:
   contents: write
 
+concurrency:
+  group: update-medium
+  cancel-in-progress: true
 
 jobs:
   medium:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      # 1) Check markers early (fast fail with a clear message)
+      - name: Check README markers
+        run: |
+          set -e
+          grep -n "<!-- MEDIUM:START -->" README.md || (echo "MEDIUM:START not found" && exit 1)
+          grep -n "<!-- MEDIUM:END -->"   README.md || (echo "MEDIUM:END not found" && exit 1)
+
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.11'
+
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser python-slugify
+          pip install feedparser
       - name: Update README with Medium posts
         env:
           MEDIUM_USERNAME: 4pex1oh
           MAX_POSTS: '5'
         run: |
           python .github/scripts/update_medium.py
+
       - name: Commit changes
         run: |
           if [[ -n $(git status --porcelain) ]]; then
-            git config user.name "github-actions"
-            git config user.email "actions@users.noreply.github.com"
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add README.md
             git commit -m "chore: update Medium posts"
             git push
+          else
+            echo "Nothing to commit"
           fi
 
 
