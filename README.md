@@ -15,7 +15,7 @@
 
 ---
 
-## 🧰 Open Source (RETH)
+## 🧰 Recent Contributions to RETH
 <!-- RETH:START -->
 <!-- Auto-populate recent PRs/issues to paradigmxyz/reth -->
 <!-- RETH:END -->
