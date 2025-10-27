@@ -1,0 +1,44 @@
+name: Update RETH contributions
+
+
+on:
+  schedule:
+    - cron: '12 3 * * *'  # daily @ 03:12 UTC
+  workflow_dispatch: {}
+
+
+permissions:
+  contents: write
+
+
+jobs:
+  reth:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install deps
+        run: |
+          npm install @octokit/graphql dayjs
+      - name: Update README with RETH contributions
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_USERNAME: Syzygy106          # changed to your handle
+          REPO_OWNER: paradigmxyz
+          REPO_NAME: reth
+          MAX_ITEMS: '8'
+        run: |
+          node .github/scripts/update_reth.js
+      - name: Commit changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            git config user.name "github-actions"
+            git config user.email "actions@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update RETH contributions"
+            git push
+          fi
+
+
