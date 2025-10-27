@@ -1,73 +1,52 @@
 <!-- Profile Header -->
 <h1 align="center">Vladislav Rybin — V</h1>
 <p align="center">
-  🧠 Physicist → 🧩 Blockchain Engineer | Building trustless systems elegantly
+  🧩 Blockchain Engineer · Building trustless systems elegantly
 </p>
-
-
-<p align="center">
-  <a href="https://medium.com/@4pex1oh">Medium</a> ·
-  <a href="https://t.me/YOUR_TELEGRAM">Telegram</a> ·
-  <a href="https://x.com/YOUR_X_HANDLE">X</a>
-</p>
-
 
 ---
 
-
 ### 🔭 Current Focus
 - Contributing to **RETH** (Rust Ethereum client)
-- Researching zk systems & MEV mitigation
-
+- Researching **zk** systems & **MEV** mitigation
 
 ### ⚙️ Tech
 `Rust` · `Solidity` · `Python` · `ZK` · `L2 / Rollups`
 
-
 ---
 
-
-## ✍️ Latest on Medium
-<!-- MEDIUM:START -->
-<!-- MEDIUM:END -->
-
-
-> _Auto‑updates twice daily via GitHub Actions (parsing your Medium RSS)._  
-> _Edit your Medium handle in workflow env._
-
-
----
-
-
-## 🧰 Recent Contributions to RETH
+## 🧰 Open Source (RETH)
 <!-- RETH:START -->
+<!-- Auto-populate recent PRs/issues to paradigmxyz/reth -->
 <!-- RETH:END -->
 
-
-> _Auto‑updates daily with your PRs/issues in `paradigmxyz/reth` (configure handle in workflow env)._
-
-
----
-
-
-## 📊 Stats (optional)
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Syzygy106&show_icons=true" height="140"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syzygy106&layout=compact" height="140"/>
-<!--
-  Tip: If these cards don't render due to rate limits, you can remove this block.
--->
-</p>
-
-
-### RETH quick links
+**Quick links**
 [![RETH stars](https://img.shields.io/github/stars/paradigmxyz/reth)](https://github.com/paradigmxyz/reth)
 [![RETH issues](https://img.shields.io/github/issues/paradigmxyz/reth)](https://github.com/paradigmxyz/reth/issues)
 
+---
+
+## ✍️ Writing
+<!-- MEDIUM:START -->
+<!-- Auto-populate latest posts from Medium RSS -->
+<!-- MEDIUM:END -->
 
 ---
 
+## 📦 Selected Work
+- **MEV mitigation notes** — practical patterns and pitfalls (link)
+- **zk rollup experiments** — prover benchmarks & ergonomics (link)
+- **Rust tooling** — small crates/macros that improved DX (link)
 
-<sub>Brand motif: vortex/space‑core. Swap links & badges to taste.</sub>
+---
 
+## 📊 Stats (optional)
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=Syzygy106&show_icons=true" height="140" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syzygy106&layout=compact" height="140" />
+  <!-- Tip: If these cards don't render due to rate limits, you can remove this block. -->
+</p>
 
+---
+
+<sub>Brand motif: vortex/space-core.</sub>
