@@ -56,7 +56,7 @@
 
 ## ✍️ My last writings
 <!-- MEDIUM:START -->
-- [Article 2 The Classic Drop.](https://medium.com/@4pex1oh/article-2-the-classic-drop-c3c5ed859d8b?source=rss-a31c7ae79b1f------2) <sub>· Wed, 22 Oct 2025</sub>
+- [NFTs For Non-Devs #1. The Classic Drop.](https://medium.com/@4pex1oh/article-2-the-classic-drop-c3c5ed859d8b?source=rss-a31c7ae79b1f------2) <sub>· Wed, 22 Oct 2025</sub>
 - [What Are NFTs and Why Do They Matter?](https://medium.com/@4pex1oh/what-are-nfts-and-why-do-they-matter-14cde132ee47?source=rss-a31c7ae79b1f------2) <sub>· Mon, 06 Oct 2025</sub>
 <!-- MEDIUM:END -->
 
