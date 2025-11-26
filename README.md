@@ -61,8 +61,3 @@
 - [What Are NFTs and Why Do They Matter?](https://medium.com/@4pex1oh/what-are-nfts-and-why-do-they-matter-14cde132ee47?source=rss-a31c7ae79b1f------2) <sub>· Mon, 06 Oct 2025</sub>
 <!-- MEDIUM:END -->
 
-## 📊 Stats
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Syzygy106&show_icons=true" height="140" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Syzygy106&layout=compact" height="140" />
-</p>
