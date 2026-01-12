@@ -1,17 +1,17 @@
 <!-- Profile Header -->
 <h1 align="center">Vladislav Rybin</h1>
 <p align="center">
-  🧩 Blockchain Engineer · Building trustless systems elegantly
+  🧩 Senior Blockchain Engineer · Execution systems, DEX infrastructure
 </p>
 
 ---
 
 ### 🔭 Current Focus
-- 🦀 Execution layer nodes with **extreme performance** — prefer Rust projects like **RETH**
-- 🔗 Building custom pools via **Uniswap V4 Hooks**
-- 🔐 Researching **zk** systems & **MEV** mitigation strategies
-- 🧮 Applying numerical methods to complex **DeFi mathematical models**
-- ✍️ Writing educational content for devs and non-devs alike
+- 🐍 Reviving and contributing to **Ape** as a modern successor to Brownie — I believe in the universality and adaptability of Python tooling for blockchain engineering
+- 🔗 Building **custom Uniswap v4 hooks** and protocol-level extensions
+- 🧠 Researching EIP-level ideas around **recurrent execution primitives**, inspired by my Conflux project
+- 🦀 Strongly valuing the performance and correctness of Rust-based tooling, inspired by **Foundry** and **Alloy**
+- ✍️ Writing educational and technical content for developers and non-developers
 
 ### ⚙️ Tech Stack
 
