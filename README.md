@@ -8,9 +8,9 @@
 
 ### 🔭 Current Focus
 - 🐍 Reviving and contributing to **Ape** as a modern successor to Brownie — I believe in the universality and adaptability of Python tooling for blockchain engineering
-- 🔗 Building **custom Uniswap v4 hooks** and protocol-level extensions
-- 🧠 Researching EIP-level ideas around **recurrent execution primitives**, inspired by my Conflux project
 - 🦀 Strongly valuing the performance and correctness of Rust-based tooling, inspired by **Foundry** and **Alloy**
+- 🧠 Researching EIP-level ideas around **recurrent execution primitives**, inspired by my Conflux project
+- 🔗 Building **custom Uniswap v4 hooks** and protocol-level extensions
 - ✍️ Writing educational and technical content for developers and non-developers
 
 ### ⚙️ Tech Stack
