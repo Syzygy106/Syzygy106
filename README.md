@@ -1,63 +1,40 @@
 <!-- Profile Header -->
 <h1 align="center">Vladislav Rybin</h1>
 <p align="center">
-  🧩 Senior Blockchain Engineer · Execution systems, DEX infrastructure
+  Senior Rust Engineer · Low-Latency Trading Systems · Concurrent & Systems Programming · Backend & Blockchain Infrastructure
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/vladislav1rybin">LinkedIn</a> ·
+  <a href="https://medium.com/@4pex1oh">Medium</a>
 </p>
 
 ---
 
-### 🔭 Current Focus
-- 🐍 Reviving and contributing to **Ape** as a modern successor to Brownie — I believe in the universality and adaptability of Python tooling for blockchain engineering
-- 🦀 Strongly valuing the performance and correctness of Rust-based tooling, inspired by **Foundry** and **Alloy**
-- 🧠 Researching EIP-level ideas around **recurrent execution primitives**, inspired by my Conflux project
-- 🔗 Building **custom Uniswap v4 hooks** and protocol-level extensions
-- ✍️ Writing educational and technical content for developers and non-developers
+I write multithreaded Rust for trading systems. At Vortex Foundation I work on DEX execution across EVM chains and Solana: arbitrage and liquidation engines, exchange connectivity, and the node and backend infrastructure they run on.
 
-### ⚙️ Tech Stack
+### What I work on
 
-**Languages & Smart Contracts**  
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white)
-![Vyper](https://img.shields.io/badge/Vyper-3C3C3D?style=flat)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+- **Low latency and concurrency.** CPU-pinned threads outside the async runtime, staged pipelines over channels, lock-free synchronization checked with loom and miri, allocation-free hot paths, zero-copy parsing, p50/p99 tracking on critical paths.
+- **Systems programming.** unsafe Rust, FFI between Rust and Go, a client for an exchange's custom application-layer protocol over TCP, Reth modifications for faster mempool processing.
+- **Backend.** Tokio and Axum services, internal APIs, data pipelines for quantitative engineers, production observability.
+- **DeFi execution.** DEX-DEX and DEX-CEX arbitrage, liquidations, 15+ DEX integrations with CLMM/DLMM liquidity unified into one pricing model, MEV protection through Flashbots and Jito, Solidity contracts including a Uniswap v4 hook.
 
-**EVM & L1/L2 Chains**  
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat&logo=ethereum&logoColor=white)
-![zkSync](https://img.shields.io/badge/zkSync-8C8DFC?style=flat&logo=zksync&logoColor=white)
-![Polygon](https://img.shields.io/badge/Polygon-8247E5?style=flat&logo=polygon&logoColor=white)
-![Arbitrum](https://img.shields.io/badge/Arbitrum-28A0F0?style=flat&logo=arbitrum&logoColor=white)
-![Optimism](https://img.shields.io/badge/Optimism-FF0420?style=flat&logo=optimism&logoColor=white)
-![Base](https://img.shields.io/badge/Base-0052FF?style=flat&logo=coinbase&logoColor=white)
-![Avalanche](https://img.shields.io/badge/Avalanche-E84142?style=flat&logo=avalanche&logoColor=white)
-![BNB Chain](https://img.shields.io/badge/BNB_Chain-F3BA2F?style=flat&logo=binance&logoColor=white)
+### Open source
 
-**Non-EVM Chains**  
-![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat&logo=solana&logoColor=white)
-![TON](https://img.shields.io/badge/TON-0088CC?style=flat&logo=ton&logoColor=white)
-![Tron](https://img.shields.io/badge/Tron-FF0013?style=flat&logo=tron&logoColor=white)
+Merged PRs in [Foundry](https://github.com/search?q=author%3ASyzygy106+org%3Afoundry-rs+is%3Apr+is%3Amerged&type=pullrequests) and [Alloy](https://github.com/search?q=author%3ASyzygy106+org%3Aalloy-rs+is%3Apr+is%3Amerged&type=pullrequests).
 
-**Infrastructure & Protocols**  
-![RETH](https://img.shields.io/badge/RETH-000000?style=flat)
-![EigenLayer](https://img.shields.io/badge/EigenLayer-6B4FBB?style=flat)
-![Chainlink](https://img.shields.io/badge/Chainlink-375BD2?style=flat&logo=chainlink&logoColor=white)
-![Circle](https://img.shields.io/badge/Circle-000000?style=flat)
+### Stack
 
-**DeFi Protocols**  
-![Uniswap](https://img.shields.io/badge/Uniswap-FF007A?style=flat&logo=uniswap&logoColor=white)
-![Orca](https://img.shields.io/badge/Orca-00D4AA?style=flat)
-![Raydium](https://img.shields.io/badge/Raydium-C64CFF?style=flat)
-![Meteora](https://img.shields.io/badge/Meteora-9945FF?style=flat)
-![Pump.fun](https://img.shields.io/badge/Pump.fun-FFD700?style=flat)
-![Moonshot](https://img.shields.io/badge/Moonshot-FF6B6B?style=flat)
+**Languages:** Rust, Solidity, Python  
+**Rust:** Tokio, Axum, Alloy, Reth, loom, miri  
+**Infrastructure:** PostgreSQL, Redis, Kafka, Docker, Kubernetes, Grafana  
+**Chains:** Ethereum, Arbitrum, Base, Optimism, Polygon, zkSync, BNB Chain, Avalanche, Solana, Tron, TON  
+**Protocols:** Uniswap V2-V4, Raydium, Orca, Meteora
 
-**MEV & Trading Infrastructure**  
-![Flashbots](https://img.shields.io/badge/Flashbots-1A1A1A?style=flat)
-![Jito](https://img.shields.io/badge/Jito-9945FF?style=flat)
+### Writing
 
-## ✍️ My last writings
 <!-- MEDIUM:START -->
 - [NFTs For Non-Devs #2. The Mystery Box.](https://medium.com/@4pex1oh/nfts-for-non-devs-2-the-mystery-box-85a108116ca8?source=rss-a31c7ae79b1f------2) <sub>· Wed, 19 Nov 2025</sub>
 - [NFTs For Non-Devs #1. The Classic Drop.](https://medium.com/@4pex1oh/article-2-the-classic-drop-c3c5ed859d8b?source=rss-a31c7ae79b1f------2) <sub>· Wed, 22 Oct 2025</sub>
 - [What Are NFTs and Why Do They Matter?](https://medium.com/@4pex1oh/what-are-nfts-and-why-do-they-matter-14cde132ee47?source=rss-a31c7ae79b1f------2) <sub>· Mon, 06 Oct 2025</sub>
 <!-- MEDIUM:END -->
-
